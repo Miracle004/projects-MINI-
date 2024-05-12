@@ -1,0 +1,53 @@
+.container {
+  font-family: Rubik;
+  width: 300px;
+  height: 300px;
+  padding: 10px 12px;
+  text-align: center;
+  margin: 30px auto;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 2px solid grey;
+  border-radius: 0.7rem;
+}
+
+h1 {
+  color: blue;
+  font-weight: bold;
+}
+
+#myInput {
+  width: 80%;
+  border-radius: 0.6rem;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  outline: none;
+  border: 1px solid grey;
+}
+
+#myInput:focus {
+  border: 2px solid blue;
+}
+
+p {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: red;
+}
+
+#convert {
+  color: white;
+  font-size: 17px;
+  background-color: blue;
+  padding: 10px 20px;
+  margin: 10px auto;
+  outline: none;
+  border: none;
+  border-radius: 0.7rem;
+}
+
+#convert:hover {
+  background-color: white;
+  color: blue;
+}
